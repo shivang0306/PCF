@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+    <control
+            namespace="SSCRM"
+            constructor="LookupWithFilters"
+            version="0.0.5"
+            display-name-key="LookupWithFilters"
+            description-key="LookupWithFilters description"
+            control-type="standard">
+
+        <property
+                name="lookup"
+                display-name-key="LookUp"
+                description-key="LookupDropDown"
+                of-type="Lookup.Simple"
+                usage="bound"
+                required="true" />
+
+        <property
+                name="OptionDisplayField"
+                display-name-key="Option Display Field"
+                description-key="Logical name of field used for displaying values in selectable options."
+                of-type="SingleLine.Text"
+                usage="input"
+                required="false" />
+
+        <!-- <property
+                name="FilteringEntity"
+                display-name-key="Filtering Entity"
+                description-key="Logical name of the entity used for filtering records in relation to the current
+        entity"
+                of-type="SingleLine.Text"
+                usage="input"
+                required="false" /> -->
+
+        <property
+                name="LookupEntityComparisonField"
+                display-name-key="Lookup Entity Comparison Field"
+                description-key="Logical name of the field in the lookup entity that is utilized for comparison with another field in the filter."
+                of-type="SingleLine.Text"
+                usage="input"
+                required="false" />
+
+        <!-- <property
+                name="RelatedEntityComparisonField"
+                display-name-key="Related Entity Comparison Field"
+                description-key="Logical name of the field in the related entity that is compared with the field of
+        main entity in the filter."
+                of-type="SingleLine.Text"
+                usage="input"
+                required="false" /> -->
+
+        <property
+                name="FormFilterComparisonField"
+                display-name-key="Form Filter Field"
+                description-key="Logical name of the field on the form that serves as the basis for filtering the main entity."
+                of-type="Lookup.Simple"
+                usage="bound"
+                required="false" />
+
+        <!--
+      Property node's of-type attribute can be of-type-group attribute.
+      Example:
+      <type-group name="numbers">
+        <type>Whole.None</type>
+        <type>Currency</type>
+        <type>FP</type>
+        <type>Decimal</type>
+      </type-group>
+      <property name="sampleProperty" display-name-key="Property_Display_Key"
+    description-key="Property_Desc_Key" of-type-group="numbers" usage="bound" required="true" />
+    -->
+
+        <resources>
+            <code
+                    path="index.ts"
+                    order="1" />
+        </resources>
+
+        <feature-usage>
+            <uses-feature
+                    name="Device.captureAudio"
+                    required="true" />
+            <uses-feature
+                    name="Device.captureImage"
+                    required="true" />
+            <uses-feature
+                    name="Device.captureVideo"
+                    required="true" />
+            <uses-feature
+                    name="Device.getBarcodeValue"
+                    required="true" />
+            <uses-feature
+                    name="Device.getCurrentPosition"
+                    required="true" />
+            <uses-feature
+                    name="Device.pickFile"
+                    required="true" />
+            <uses-feature
+                    name="Utility"
+                    required="true" />
+            <uses-feature
+                    name="WebAPI"
+                    required="true" />
+        </feature-usage>
+
+    </control>
+</manifest>
