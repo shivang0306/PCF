@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control
+      namespace="SSCRM"
+      constructor="MultiselectOptionset"
+      version="1.0.1"
+      display-name-key="MultiselectOptionset"
+      description-key="MultiselectOptionset description"
+      control-type="standard">
+   
+      <property
+        name="MultiSelect"
+        display-name-key="Multiple select optionset"
+        description-key="Multiple select optionset"
+        of-type="MultiSelectOptionSet"
+        usage="bound"
+        required="true" />
+
+    <resources>
+      <code
+          path="index.ts"
+          order="1" />
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/MultiselectOptionset.css" order="1" />
+      <resx path="strings/MultiselectOptionset.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+    <feature-usage>
+      <uses-feature
+          name="Device.getCurrentPosition"
+          required="true" />
+      <uses-feature
+          name="Utility"
+          required="true" />
+      <uses-feature
+          name="WebAPI"
+          required="true" />
+    </feature-usage>
+  </control>
+</manifest>

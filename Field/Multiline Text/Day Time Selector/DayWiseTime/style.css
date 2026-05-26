@@ -1,0 +1,17 @@
+/* Fix Fluent UI TimePicker dropdown transparency in D365 */
+.fui-Combobox__listbox {
+	background-color: #ffffff !important;
+	opacity: 1 !important;
+}
+
+.fui-Combobox__option {
+	background-color: #ffffff !important;
+}
+
+.fui-Combobox__option:hover {
+	background-color: #f3f2f1 !important; /* Fluent hover */
+}
+
+.fui-Combobox__listbox {
+	z-index: 100000 !important;
+}
