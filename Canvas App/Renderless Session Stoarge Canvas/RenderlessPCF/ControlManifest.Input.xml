@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="BSCRM" constructor="RenderlessPCF" version="0.0.1"
+    display-name-key="RenderlessPCF" description-key="RenderlessPCF description"
+    control-type="standard">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="data" display-name-key="data" description-key="data" of-type="Object"
+      usage="input" required="true" />
+    <property name="sessionStorageKey" display-name-key="sessionStorageKey"
+      description-key="sessionStorageKey" of-type="SingleLine.Text" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+  </control>
+</manifest>
