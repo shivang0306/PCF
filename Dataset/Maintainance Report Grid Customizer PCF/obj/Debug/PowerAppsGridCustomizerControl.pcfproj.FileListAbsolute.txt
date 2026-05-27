@@ -1,0 +1,8 @@
+C:\Users\sit433\Desktop\GridCustomizer\PowerApps-Samples\component-framework\resources\GridCustomizerControlTemplate\obj\Debug\PowerAppsGridCustomizerControl.pcfproj.AssemblyReference.cache
+C:\Users\sit433\Desktop\GridCustomizer\PowerApps-Samples\component-framework\resources\GridCustomizerControlTemplate\obj\Debug\PowerAppsGridCustomizerControl.pcfproj.CoreCompileInputs.cache
+C:\Users\sit357.SIT\Desktop\New folder\Grid Customizer\obj\Debug\PowerAppsGridCustomizerControl.pcfproj.AssemblyReference.cache
+C:\Users\sit357.SIT\Desktop\New folder\Grid Customizer\obj\Debug\PowerAppsGridCustomizerControl.pcfproj.CoreCompileInputs.cache
+C:\Shivang Simaria\Wafra CRM\Grid Customizer\obj\Debug\PowerAppsGridCustomizerControl.pcfproj.AssemblyReference.cache
+C:\Shivang Simaria\Wafra CRM\Grid Customizer\obj\Debug\PowerAppsGridCustomizerControl.pcfproj.CoreCompileInputs.cache
+C:\Shivang Simaria\Wafra CRM\PCF\Maintainance Report PCF\obj\Debug\PowerAppsGridCustomizerControl.pcfproj.AssemblyReference.cache
+C:\Shivang Simaria\Wafra CRM\PCF\Maintainance Report PCF\obj\Debug\PowerAppsGridCustomizerControl.pcfproj.CoreCompileInputs.cache

@@ -1,0 +1,180 @@
+.staffing-chart-container {
+	height: 180px; /* ✅ FIXED HEIGHT */
+	padding: 8px 12px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ddd;
+}
+
+.add-booking-btn {
+	cursor: pointer;
+	font-size: 14px;
+	padding: 2px 6px;
+}
+
+.app-container {
+	font-family: Segoe UI, sans-serif;
+}
+
+.date-filter {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 0 10px;
+	gap: 8px;
+	align-items: center;
+}
+/* 
+.time-header {
+	display: flex;
+	margin-left: 220px;
+}
+
+.time-cell {
+	width: 100px;
+	text-align: center;
+	font-size: 11px;
+}
+
+.timeline-row {
+	display: flex;
+	border-bottom: 1px solid #eee;
+}
+
+.agent-column {
+	width: 220px;
+	padding: 7px;
+	background: #fafafa;
+	border-right: 1px solid #ddd;
+}
+
+.segment {
+	position: absolute;
+	top: 7px;
+	height: 21px;
+	border-radius: 4px;
+}
+*/
+
+.status-Canceled {
+	background: #b3b3b38a;
+}
+.status-Completed {
+	background: #37b23bc6;
+}
+.status-In-Progress {
+	background: #fbff007f;
+}
+.status-On-Break {
+	background: #e97026a0;
+}
+.status-Scheduled {
+	background: #00a9e2ac;
+}
+.status-Traveling {
+	background: #9f39ff7f;
+}
+.status-default {
+	background: #4d4d4da0;
+}
+
+/* 
+.current-time {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 2px;
+	background: red;
+}
+*/
+
+.timeline-track {
+	position: relative;
+	width: 100%; /* 🔑 critical */
+	height: 100%;
+}
+
+.timeline-container {
+	position: relative;
+	margin-top: 40px;
+	border-top: 1px solid #ddd;
+}
+
+/* Overlay layer for highlights */
+/* .timeline-overlay {
+	position: absolute;
+	top: 30px; 
+	left: 220px;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+} */
+
+/* Selected hour highlight */
+.hour-highlight {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background: rgba(33, 150, 243, 0.12);
+	border-left: 2px solid rgba(33, 150, 243, 0.4);
+	border-right: 2px solid rgba(33, 150, 243, 0.4);
+}
+
+.timeline-wrapper {
+	overflow-x: auto;
+	position: relative;
+}
+
+.time-header {
+	display: flex;
+	position: sticky;
+	top: 0;
+	background: #fff;
+	z-index: 5;
+}
+
+.time-cell {
+	text-align: center;
+	font-size: 11px;
+	border-right: 1px solid #eee;
+}
+
+.timeline-row {
+	display: flex;
+	height: 30px;
+	border-bottom: 1px solid #00000014;
+	width: fit-content;
+}
+
+.agent-column {
+	background: #fafafa;
+	border-right: 1px solid #ddd;
+	padding: 4px;
+	box-sizing: border-box;
+	position: sticky;
+    left: 0
+}
+
+.timeline-track {
+	position: relative;
+}
+
+.segment {
+	position: absolute;
+	top: 4px;
+	height: 23px;
+	border-radius: 4px;
+}
+
+.timeline-overlay {
+	position: absolute;
+	top: 30px;
+	bottom: 0;
+	pointer-events: none;
+}
+
+.current-time {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 2px;
+	background: red;
+}

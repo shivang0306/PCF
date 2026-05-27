@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="SSCRM" constructor="ScheduleBoard" version="0.0.1" display-name-key="scheduleboard" description-key="ScheduleBoard and Chart PCF" control-type="standard">
+    <data-set name="Bookings" display-name-key="Dataset_Display_Key">
+    </data-set>
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/ScheduleBoard.css" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

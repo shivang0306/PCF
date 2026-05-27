@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="Wafra" constructor="GroupingGrid" version="0.0.1"
+    display-name-key="GroupingGrid" description-key="GroupingGrid description"
+    control-type="standard">
+
+    <!-- Dataset Definition (for grid controls) -->
+    <data-set name="WorkOrderDataSet" display-name-key="Work Order DataSet" />
+
+    <!-- Resources for the control (including TypeScript and CSS if any) -->
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+
+    <!-- UNCOMMENT TO ENABLE THE SPECIFIED API
+    <feature-usage>
+      <uses-feature name="Device.captureAudio" required="true" />
+      <uses-feature name="Device.captureImage" required="true" />
+      <uses-feature name="Device.captureVideo" required="true" />
+      <uses-feature name="Device.getBarcodeValue" required="true" />
+      <uses-feature name="Device.getCurrentPosition" required="true" />
+      <uses-feature name="Device.pickFile" required="true" />
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+    -->
+  </control>
+</manifest>

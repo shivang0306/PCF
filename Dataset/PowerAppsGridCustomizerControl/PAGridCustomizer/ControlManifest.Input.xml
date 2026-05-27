@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="SSCRM" constructor="ViewConfigurator" version="0.0.2" display-name-key="Sample DataSet" description-key="SampleDataSet" control-type="virtual" >
+    <property name="EventName" display-name-key="EventName" description-key="EventName" of-type="SingleLine.Text" usage="bound" required="true" />
+    <!-- <property name="TargetColumns" display-name-key="Target Columns (Comma Separated)" description-key="Provide the logical names of the columns you wish to modify in the view, separated by commas. This input will enable the custom control to identify and apply changes to the specified columns within Dynamics 365." of-type="SingleLine.Text" usage="input" required="true" /> -->
+    <resources>
+      <code path="index.ts" order="1"/>
+      <platform-library name="React" version="16.8.6" />
+      <platform-library name="Fluent" version="8.29.0" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
